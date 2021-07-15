@@ -9,7 +9,7 @@ class MyWindow(QMainWindow):
         super().__init__()
 
         self.setWindowTitle("My QT5 Window") #제목표시줄
-        self.setGeometry(50, 30, 600, 300) #x, y, width, height
+        self.setGeometry(50, 3, 600, 300)  #x, y, width, height                                       0, 600, 300) #x, y, width, height
         self.setWindowIcon(QIcon('./image/chart.png'))
 
         #label 추가
